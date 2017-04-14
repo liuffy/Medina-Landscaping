@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import 'variables';
 
 :global {
   body {
-   overflow-x:hidden;
-   overflow-y: hidden;
-    margin: 0;
-    padding: 0;
-    background: black;
-    font-family: 'Nunito', sans-serif;
+		overflow-x:hidden;
+		overflow-y: hidden;
+		margin: 0;
+		padding: 0;
+		color: $stone-gray;
+		font-family: 'Montserrat', sans-serif;
   }
 }
+	.navBar{
+		color:$forest-green;
+	}
