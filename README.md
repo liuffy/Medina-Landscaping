@@ -1,4 +1,4 @@
 
-![Wireframe 1](/app/assets/img/medina_tree_wireframe_1.png)
-![Wireframe 2](/app/assets/img/medina__tree_wireframe_2.png)
-![Wireframe 3](/app/assets/img/medina_tree_wireframe_3.png)
+![Wireframe 1](https://res.cloudinary.com/liuffy/image/upload/v1492205287/Medina_tree_wireframe_1_fprla1.png)
+![Wireframe 2](https://res.cloudinary.com/liuffy/image/upload/v1492205287/Medina_tree_wireframe_2_xt9bk9.png)
+![Wireframe 3](https://res.cloudinary.com/liuffy/image/upload/v1492205287/Medina_tree_wireframe_3_lh3xli.png)
