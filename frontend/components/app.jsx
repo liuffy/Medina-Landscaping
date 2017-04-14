@@ -3,9 +3,20 @@ import '../../css/app';
 
 const App = () =>{
 	return(
-			<div>
-			<h1>Hello, Medina</h1>
-			<h2 className="navBar">Hi</h2>
+			<div className="page">
+				<div className="top-row">
+					<div className="wordmark">
+						<img className="tree-logo"
+								 src='../../app/assets/img/tree.svg' /> Medina
+					 </div>
+					<div className="nav-bar">
+						<ul className="nav-list">
+							<li className="active">Home</li>
+							<li>Portfolio</li>
+							<li>Contact</li>
+						</ul>
+					</div>
+				</div>
 			</div>
   		)
 	}

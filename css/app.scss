@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Raleway:400,500,700,900|');
 @import 'variables';
 
 :global {
@@ -9,8 +9,61 @@
 		padding: 0;
 		color: $stone-gray;
 		font-family: 'Montserrat', sans-serif;
+
+		ul{
+			list-style:none;
+		}
+
+		.active{
+			font-weight:700;
+		}
   }
 }
-	.navBar{
-		color:$forest-green;
+
+	.page{
+		padding: 2em 3em;
+		height:100vh;
+	}
+
+	.top-row{
+		border:1px solid pink;
+		height:4em;
+		display:flex;
+		justify-content: space-between;
+		align-items:center;
+	}
+
+	.wordmark{
+		font-weight:600;
+		font-size:1.4em;
+		display:flex;
+		flex-direction:row;
+		cursor: pointer;
+		-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+		align-items:center;
+	}
+
+	.tree-logo{
+		height:30px;
+	}
+
+	.nav-bar{
+		font-size:0.8em;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.nav-list{
+		width:250px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+	}
+	.nav-list > li{
+		text-transform:uppercase;
 	}
