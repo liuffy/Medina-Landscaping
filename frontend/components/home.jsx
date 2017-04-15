@@ -2,10 +2,9 @@ import React from 'react';
 import '../../css/app';
 import '../../css/home_page';
 
-
 const Home = () =>{
 	return (
-		<div>
+		<div className="container">
 			<div className="center">
 				<div className="center-text">
 					<h1 className="center-title">Medina Tree Services</h1>

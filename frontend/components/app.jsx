@@ -14,7 +14,7 @@ const App = () =>{
 				<div className="top-row">
 					<div className="wordmark">
 						<img className="tree-logo"
-								 src='../../app/assets/img/tree.svg' /> Medina
+								 src='../../app/assets/img/tree.svg' /><Link to="/">Medina</Link>
 					 </div>
 
 					<div className="nav-bar">
