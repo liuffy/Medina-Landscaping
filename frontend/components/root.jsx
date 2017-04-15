@@ -1,6 +1,9 @@
 import React from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import {  BrowserRouter as Router,
+				  Route,
+				  Link } from 'react-router-dom';
 import App from './app';
+import Home from './home';
 
 
 const Root = () => {

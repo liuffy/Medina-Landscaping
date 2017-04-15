@@ -1,7 +1,11 @@
 import React from 'react';
+import {  BrowserRouter as Router,
+				  Route,
+				  Link } from 'react-router-dom';
 import '../../css/app';
 import Home from './home';
-import Footer from './footer'
+import Footer from './footer';
+
 
 const App = () =>{
 	return(
@@ -15,9 +19,9 @@ const App = () =>{
 
 					<div className="nav-bar">
 						<ul className="nav-list">
-							<li className="active">Home</li>
-							<li>Portfolio</li>
-							<li>Contact</li>
+							<li className="active"><Link to="/">Home</Link></li>
+							<li><Link to="/portfolio">Portfolio</Link></li>
+							<li><Link to="/contact">Contact</Link></li>
 						</ul>
 					</div>
 

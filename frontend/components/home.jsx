@@ -19,7 +19,7 @@ const Home = () =>{
 					<div className="home-column">
 					<h3 className="column-title">About Us</h3>
 					<p className="column-text">
-						We are based in Waltham and have served the greater Boston community for over X years.
+						We are based in Waltham and have served the greater Boston community for over 10 years.
 					</p>
 					</div>
 
