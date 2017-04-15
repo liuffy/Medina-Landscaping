@@ -7,6 +7,9 @@
     "node": "6.10.2",
     "npm": "3.10.10"
   },
+  "scripts": {
+     "postinstall": "./node_modules/.bin/webpack"
+  },
   "keywords": [],
   "author": "Sophia Liu",
   "license": "ISC",
