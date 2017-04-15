@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Raleway:400,500,700,900|');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300, 400,500,700,900|Raleway:300, 400,500,700,900|');
 @import 'variables';
 
 :global {
@@ -21,7 +21,8 @@
 }
 
 	.page{
-		padding: 2em 3em;
+		border:1px solid gray;
+		padding: 1em 2em;
 		height:100vh;
 	}
 

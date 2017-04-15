@@ -1,0 +1,37 @@
+.center{
+		border:1px solid green;
+		display:flex;
+		flex-direction:column;
+		align-items: center;
+
+
+	.center-text{
+		text-align:center;
+		margin-top:130px;
+		position:absolute;
+		border:1px solid purple;
+	}
+
+	.center-title{
+		margin:0px;
+		color:white;
+		padding:0;
+		font-size:35px;
+	}
+
+	.center-subtitle{
+		margin:0px;
+		font-family: 'Raleway', sans-serif;
+		font-size:24px;
+		color:white;
+		padding:0;
+		font-weight:300;
+	}
+
+	.center-img{
+		z-index:-1;
+		position:absolute;
+		width:26em;
+		display:block;
+	}
+}
