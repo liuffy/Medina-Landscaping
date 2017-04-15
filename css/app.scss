@@ -4,6 +4,7 @@
 
 :global {
   body {
+  	text-decoration: none;
 		overflow-x:hidden;
 		margin: 0;
 		padding: 0;
@@ -17,10 +18,15 @@
 		a{
 	    color: $stone-gray;
 	    text-decoration: none;
+
+	    &:hover{
+		    color: $stone-gray;
+  			text-decoration: none;
+	    }
 		}
 
 		.active{
-			font-weight:700;
+			font-weight:700 !important;
 		}
   }
 }
@@ -37,6 +43,7 @@
 	}
 
 	.wordmark{
+		border:1px solid transparent;
 		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 		font-weight:600;
 		font-size:1.4em;
@@ -54,6 +61,7 @@
                                   supported by Chrome and Opera */
 		align-items:center;
 			&:hover{
+				border:1px solid $light-gray;
 			  box-shadow: 0 7px 7px rgba(0,0,0,0.13), 0 5px 5px rgba(0,0,0,0.11);
 			}
 	}
@@ -63,6 +71,7 @@
 	}
 
 	.nav-bar{
+		text-decoration: none;
 		font-size:0.75em;
 		font-family: 'Raleway', sans-serif;
 	}
@@ -74,13 +83,18 @@
 		justify-content: space-between;
 	}
 	.nav-list > li{
+		text-decoration: none;
 		border-radius:3px;
 		cursor:pointer;
+		font-weight:500;
 		padding:0.5em 1em;
 		text-transform:uppercase;
+		border:1px solid transparent;
 		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 
 		&:hover{
+			border:1px solid $light-gray;
+			text-decoration: none;
 		  box-shadow: 0 7px 14px rgba(0,0,0,0.13), 0 5px 5px rgba(0,0,0,0.11);
 		}
 	}
