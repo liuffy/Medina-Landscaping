@@ -2,9 +2,9 @@
   "name": "Medina",
   "version": "1.0.0",
   "description": "Company website",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
-     "postinstall": "./node_modules/.bin/webpack"
+    "postinstall": "./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "Sophia Liu",
