@@ -14,6 +14,23 @@ const Home = () =>{
 				<img className="center-img" 
 						 src="../../app/assets/img/center.svg"/>
 			</div>
+				<div className="home-content">
+
+					<div className="home-column">
+					<h3 className="column-title">About Us</h3>
+					<p className="column-text">
+						We are based in Waltham and have served the greater Boston community for over X years.
+					</p>
+					</div>
+
+					<div className="home-column">
+					<h3 className="column-title">Our Services</h3>
+					<p className="column-text">
+						Our services include landscaping, tree removal, and snow removal.
+					</p>
+					</div>
+
+				</div>
 		</div>
 		)
 }

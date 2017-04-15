@@ -1,0 +1,17 @@
+@import 'variables';
+
+.footer-container{
+	font-family: 'Raleway', sans-serif;
+	-webkit-box-shadow: -2px -7px 26px -13px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px -7px 26px -13px rgba(0,0,0,0.75);
+	box-shadow: -2px -7px 26px -13px rgba(0,0,0,0.75);
+	height:150px;
+	color:white;
+	font-size:0.8em;
+	display:flex;
+	font-weight:400;
+	flex-direction:row;
+	align-items: center;
+	justify-content: space-around;
+	background:$forest-green;
+}

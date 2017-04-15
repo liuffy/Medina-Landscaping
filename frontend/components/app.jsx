@@ -1,9 +1,11 @@
 import React from 'react';
 import '../../css/app';
 import Home from './home';
+import Footer from './footer'
 
 const App = () =>{
 	return(
+		<div>
 			<div className="page">
 				<div className="top-row">
 					<div className="wordmark">
@@ -23,6 +25,8 @@ const App = () =>{
 				</div>
 					<Home/>
 			</div>
+					<Footer/>
+		</div>
   		)
 	}
 
