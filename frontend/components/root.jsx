@@ -10,6 +10,16 @@ import Portfolio from './portfolio';
 import Contact from './contact';
 
 
+const NavBar = () => {
+	return(
+			<div className="nav-bar">
+						<ul className="nav-list">
+							<li className="active"><Link to="/">Home</Link></li>
+							<li><Link to="/portfolio">Portfolio</Link></li>
+							<li><Link to="/contact">Contact</Link></li>
+						</ul>
+					</div>)
+}
 const Root = () => {
   return(
 		  <Router >
@@ -21,20 +31,14 @@ const Root = () => {
 								 src='../../app/assets/img/tree.svg' /><Link to="/">Medina</Link>
 					 </div>
 
-					<div className="nav-bar">
-						<ul className="nav-list">
-							<li className="active"><Link to="/">Home</Link></li>
-							<li><Link to="/portfolio">Portfolio</Link></li>
-							<li><Link to="/contact">Contact</Link></li>
-						</ul>
-					</div>
+					<NavBar/>
 
 					
 				</div>
-			</div>
 	    	 <Route exact path="/" component = { Home }/>
 	    	 <Route path="/portfolio" component={ Portfolio }/>
 	    	 <Route path="/contact" component={ Contact }/>
+			</div>
 					<Footer/>
     	 </div>
   	  </Router>

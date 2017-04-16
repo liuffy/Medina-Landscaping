@@ -20,14 +20,14 @@ const App = () =>{
 					<div className="nav-bar">
 						<ul className="nav-list">
 							<li className="active"><Link to="/">Home</Link></li>
-							<li><Link to="/portfolio">Portfolio</Link></li>
-							<li><Link to="/contact">Contact</Link></li>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li><a href="/contact">Contact</a></li>
 						</ul>
 					</div>
 
 					
-				</div>
 					<Home/>
+				</div>
 			</div>
 					<Footer/>
 		</div>
