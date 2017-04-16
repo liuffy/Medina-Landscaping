@@ -3,6 +3,11 @@
 
 
 :global {
+
+	html{
+  	text-decoration: none !important;
+	}
+
   body {
   	text-decoration: none !important;
 		overflow-x:hidden;
@@ -32,6 +37,7 @@
 }
 
 	.page{
+		width:100vw;
 		padding: 1em 2em;
 	}
 
