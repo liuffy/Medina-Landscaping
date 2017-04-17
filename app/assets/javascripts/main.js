@@ -8,8 +8,8 @@
         $(".animsition").animsition( {
             inClass: 'fade-in',
             outClass: 'fade-out',
-            inDuration: 600,
-            outDuration: 300,
+            inDuration: 300,
+            outDuration: 200,
             linkElement: '.animsition-link',
             loading: true,
             loadingParentElement: 'body', //animsition wrapper element

@@ -1,0 +1,21 @@
+@import 'variables';
+
+h3{
+	font-size:20px;
+	font-family:'Raleway';
+	font-weight:900;
+}
+
+.info-block{
+	display:inline-block;
+	height:200px;
+	text-align:center;
+}
+
+.col-half{
+	width:50%;
+}
+
+.col-whole{
+	width:100%;
+}
