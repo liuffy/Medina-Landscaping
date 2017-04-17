@@ -4,11 +4,11 @@
   "description": "Company website",
   "main": "webpack.config.js",
   "engines": {
-    "node": "6.2.1",
-    "npm": "3.9.3"
+    "node": "6.10.2",
+    "npm": "3.10.10"
   },
   "scripts": {
-     "start": "./node_modules/.bin/webpack"
+    "postinstall": "./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "Sophia Liu",
@@ -20,9 +20,10 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.0",
     "node-sass": "^4.5.2",
+    "react": "^15.5.4",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
-    "webpack": "^1.13.3"
+    "webpack": "^2.4.1"
   },
   "dependencies": {
     "babel-loader": "^6.4.1",
