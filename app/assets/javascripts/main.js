@@ -24,6 +24,7 @@
             overlayParentElement : 'body',
             transition: function(url){ 
                 window.location.href = url; 
+                location.reload();
             }
     });
 
