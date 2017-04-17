@@ -14,8 +14,6 @@ const Portfolio = () =>{
         </svg>
       </div>
     </div>
-		<div className="flex-wrapper">
-      <div className="main-content align-center">
         <div className="container-fluid">
 
           <div className="row">
@@ -41,8 +39,6 @@ const Portfolio = () =>{
         </div>
       </div>
     </div>
-		</div>
-		</div>
 		)
 }
 
