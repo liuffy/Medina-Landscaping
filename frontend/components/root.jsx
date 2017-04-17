@@ -2,7 +2,7 @@ import React from 'react';
 import {  HashRouter as Router,
 	// Change back to BrowserRouter for prettier URL
 				  Route,
-				  Link } from 'react-router-dom';
+				  NavLink } from 'react-router-dom';
 import App from './app';
 import '../../css/app';
 import Home from './home';
@@ -15,9 +15,9 @@ const NavBar = () => {
 	return(
 			<div className="nav-bar">
 						<ul className="nav-list">
-							<Link to="/"><li className="active">Home</li></Link>
-							<Link to="/portfolio"><li>Portfolio</li></Link>
-							<Link to="/contact"><li>Contact</li></Link>
+							<NavLink activeClassName="active" to="/"><li>Home</li></NavLink>
+							<NavLink activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
+							<NavLink activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 						</ul>
 					</div>)
 }
@@ -29,7 +29,7 @@ const Root = () => {
 						<div className="top-row">
 							<div className="wordmark">
 								<img className="tree-logo"
-										 src='../../app/assets/img/tree.svg' /><Link to="/">Medina</Link>
+										 src='../../app/assets/img/tree.svg' /><NavLink to="/">Medina</NavLink>
 							 </div>
 
 							<NavBar/>

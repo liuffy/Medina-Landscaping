@@ -14,25 +14,25 @@ const Portfolio = () =>{
 		<div className="flex-wrapper">
       <div className="main-content align-center">
         <div className="container-fluid">
-          <div className="row">
             <div className="container">
-              <div className="row">
-                <div className="col-md-7 col-md-offset-1">
+                <div className="">
                   <div className="open-project-lightbox">
 
                   <a href="app/assets/img/img1.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img1.png" /></a>
 
                   <a href="app/assets/img/img2.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img2.png"/></a>                
 
-                   <a href="app/assets/img/img2.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img3.png"/></a>
+                   <a href="app/assets/img/img3.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img3.png"/></a>
 
-                   <a href="app/assets/img/img2.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img4.png"/></a></div>
+                   <a href="app/assets/img/img4.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img4.png"/></a>
+
+                   <a href="app/assets/img/img4.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img4.png"/></a>
+                           
+                   <a href="app/assets/img/img4.png"><span className="plus"><span></span><span></span></span><img alt="" src="app/assets/img/img4.png"/></a></div>
 
 
                 </div>
-              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
