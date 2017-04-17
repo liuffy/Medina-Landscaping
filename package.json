@@ -8,7 +8,8 @@
     "npm": "4.2.0"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/webpack"
+  "start": "node app.js",
+  "postinstall": "./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "Sophia Liu",
@@ -23,9 +24,10 @@
     "react": "^15.5.4",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
-    "webpack": "^1.13.1"
+    "webpack": "^2.4.1"
   },
   "dependencies": {
+    "express": "^4.15.2",
     "jquery": "^3.2.1",
     "lightbox2": "^2.9.0",
     "react": "^15.5.4",
