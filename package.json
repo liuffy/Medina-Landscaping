@@ -4,8 +4,8 @@
   "description": "Company website",
   "main": "webpack.config.js",
   "engines": {
-    "node": "6.10.2",
-    "npm": "3.10.10"
+    "node": "6.2.1",
+    "npm": "3.9.3"
   },
   "scripts": {
      "postinstall": "./node_modules/.bin/webpack"
