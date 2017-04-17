@@ -1,21 +1,27 @@
 @import 'variables';
 
-h3{
-	font-size:20px;
-	font-family:'Raleway';
-	font-weight:900;
+
+
+	h3{
+		font-size:2em;
+		font-family:'Raleway';
+		font-weight:900;
+		margin-top:2em;
+		margin-bottom:1em;
+	}
+
+.info-list{
+	font-weight:100;
+	font-size:1.1em;
+	padding-left:0;
 }
 
-.info-block{
-	display:inline-block;
-	height:200px;
-	text-align:center;
+
+.logo-pic{
+	width:3.5em;
+	padding-right:1em;
 }
 
-.col-half{
-	width:50%;
-}
-
-.col-whole{
-	width:100%;
+.insurance{
+	font-weight:100;
 }
