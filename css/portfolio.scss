@@ -21,6 +21,7 @@
     background:$stone-gray;
     color:white;
     transition: opacity .2s ease; }
+
   .open-project-lightbox a .plus {
     transition: opacity .2s ease;
     opacity: 0;
@@ -495,7 +496,7 @@ button.mfp-arrow {
 .open-project-lightbox a img {
   width:80%;
   /*box-shadow: 0px 8px 46.5px 2.5px rgba(37, 1, 0, 0.4);*/
-   }
+ }
 
 .open-project-lightbox a .plus {
   background-color: rgba(0, 0, 0, 0.6); }
@@ -524,3 +525,6 @@ button.mfp-arrow div:hover span {
 
 button.mfp-arrow div span {
   background-color: #fff; }
+
+
+  

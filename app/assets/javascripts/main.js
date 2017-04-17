@@ -4,6 +4,7 @@
     var $window = $(window);
 
     $(document).ready(function () {
+
         $(".animsition").animsition( {
             inClass: 'fade-in',
             outClass: 'fade-out',
@@ -42,6 +43,7 @@
             $('.menu-content', '.menu-mobile').toggleClass('pushed');
         });
     }
+
 
 
     function customSelect(){
@@ -321,84 +323,7 @@
 
     }
 
-    function  blog() {
-        if ($('.sidebar').length > 0) {
-            $(".sidebar-open").on('click',function () {
-                $('.sidebar').toggleClass('pushed');
-                $(this).toggleClass('pushed');
-                $(".preview-wrapper").toggleClass('sidebar-pushed');
-            });
-            $('.sidebar .input-wrapper').append('<div class="categories-mobile"><div class="blog-filter filter-wrapper"><div class="filter"></div></div></div>');
-            $('.categories button').clone().appendTo(".filter");
-            $('.categories-wrapper > h6').clone().prependTo(".categories-mobile");
 
-            $('.post-preview').hover(
-                function() {
-                    $('.post-preview img ').css('opacity', '.5');
-                },
-                function () {
-                    $('.post-preview img ').css('opacity', '1');
-                }
-            );
-            $('.reacent').hover(
-                function() {
-                    $('.reacent img ').css('opacity', '.5');
-                },
-                function () {
-                    $('.reacent img ').css('opacity', '1');
-                }
-            );
-        }
-
-    }
-    function customScroll() {
-        var $scrollOnTop =  $('.scroll-on-top'),
-            $scroll = $('.scroll');
-        $scroll.niceScroll({
-            autohidemode: false,
-            touchbehavior: true,
-            preventmultitouchscrolling: false,
-            cursordragontouch: true,
-            grabcursorenabled: false
-        });
-        if ($scroll.hasClass('hidden-scroll')) {
-            $('#ascrail2000-hr').addClass('display-none');
-        }
-
-        if ((window.innerWidth > 992) && (window.innerHeight > 768)) {
-            $scrollOnTop.niceScroll({
-                autohidemode: false,
-                touchbehavior: true,
-                preventmultitouchscrolling: false,
-                cursordragontouch: true,
-                railvalign: 'top',
-                nativeparentscrolling: false,
-                grabcursorenabled: false
-            });
-        } else {
-            $scrollOnTop.getNiceScroll().remove();
-            $scrollOnTop.removeAttr('style');
-        }
-    }
-
-    function subscribe() {
-        var subscibe = $('#subscribe');
-        subscibe.submit(function () {
-            $.ajax({
-                method: "POST",
-                url: "php/subscribe.php",
-                data: {
-                    'email': subscibe.find('input[name="email"]').val()
-                },
-                success: function (data) {
-                    $('.subscribe-help-block').html(data);
-                    subscibe.find('input[name="email"]').val('');
-                }
-            });
-            console.log(subscibe.find('input[name="email"]').val());
-            return false;
-        });
-    }
 // Function to show/hide graph on button click.
     function showGraph() {
         if ($('.about-graph').length !== 0) {
