@@ -5,12 +5,13 @@ import '../../css/portfolio';
 const Portfolio = () =>{
 	return (
 		<div>
-		
+	 <div className="showbox">
 		<div className="loader">
         <svg viewBox="25 25 50 50" className="circular">
           <circle cx="50" cy="50" r="20" fill="none" strokeWidth="6" strokeMiterlimit="10" className="path"></circle>
         </svg>
       </div>
+    </div>
 		<div className="flex-wrapper">
       <div className="main-content align-center">
         <div className="container-fluid">

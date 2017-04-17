@@ -269,14 +269,16 @@ button.mfp-arrow {
   bottom: 0;
   z-index: -1; }
 
+/*
 .showbox {
+  background-color: #fff;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 5%;
-  z-index: 99999999999; }
+  z-index: 99999999999; }*/
 
 .loader {
   position: absolute;
@@ -425,25 +427,6 @@ button.mfp-arrow {
 .gradient-sides:after {
   background: linear-gradient(to left, white, rgba(255, 255, 255, 0)); }
 
-@media (max-width: 767px) {
-  .gradient-sides-sm:before {
-    background: linear-gradient(to right, #fff, transparent); }
-  .gradient-sides-sm:after {
-    background: linear-gradient(to left, #fff, transparent); } }
-
-*::-moz-selection {
-  background: #434cff;
-  color: #fff; }
-
-*::selection {
-  background: #434cff;
-  color: #fff; }
-
-html {
-  background-color: #fff; }
-
-body {
-  background-color: transparent; }
 
 .background-light {
   background-color: #f2f2ff; }
@@ -510,6 +493,7 @@ body {
   margin:0.1em;
 }
 .open-project-lightbox a img {
+  width:80%;
   /*box-shadow: 0px 8px 46.5px 2.5px rgba(37, 1, 0, 0.4);*/
    }
 

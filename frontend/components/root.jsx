@@ -15,9 +15,9 @@ const NavBar = () => {
 	return(
 			<div className="nav-bar">
 						<ul className="nav-list">
-							<NavLink activeClassName="active" to="/"><li>Home</li></NavLink>
-							<NavLink activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
-							<NavLink activeClassName="active" to="/contact"><li>Contact</li></NavLink>
+							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
+							<NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
+							<NavLink className="animsition-link" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 						</ul>
 					</div>)
 }
@@ -29,7 +29,7 @@ const Root = () => {
 						<div className="top-row">
 							<div className="wordmark">
 								<img className="tree-logo"
-										 src='../../app/assets/img/tree.svg' /><NavLink to="/">Medina</NavLink>
+										 src='../../app/assets/img/tree.svg' /><NavLink className="animsition-link" to="/">Medina</NavLink>
 							 </div>
 
 							<NavBar/>
