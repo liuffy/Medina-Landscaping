@@ -14,9 +14,9 @@ const NavBar = () => {
 	return(
 			<div className="nav-bar">
 						<ul className="nav-list">
-							<li className="active"><Link to="/">Home</Link></li>
-							<li><Link to="/portfolio">Portfolio</Link></li>
-							<li><Link to="/contact">Contact</Link></li>
+							<Link to="/"><li className="active">Home</li></Link>
+							<Link to="/portfolio"><li>Portfolio</li></Link>
+							<Link to="/contact"><li>Contact</li></Link>
 						</ul>
 					</div>)
 }
@@ -24,22 +24,20 @@ const Root = () => {
   return(
 		  <Router >
 			  <div>
-			<div className="page">
-				<div className="top-row">
-					<div className="wordmark">
-						<img className="tree-logo"
-								 src='../../app/assets/img/tree.svg' /><Link to="/">Medina</Link>
-					 </div>
+					<div className="page">
+						<div className="top-row">
+							<div className="wordmark">
+								<img className="tree-logo"
+										 src='../../app/assets/img/tree.svg' /><Link to="/">Medina</Link>
+							 </div>
 
-					<NavBar/>
-
-					
-				</div>
+							<NavBar/>
+						</div>
 	    	 <Route exact path="/" component = { Home }/>
-	    	 <Route path="/portfolio" component={ Portfolio }/>
-	    	 <Route path="/contact" component={ Contact }/>
-			</div>
-					<Footer/>
+	    	 <Route exact path="/portfolio" component={ Portfolio }/>
+	    	 <Route exact path="/contact" component={ Contact }/>
+				</div>
+					<Footer/> 
     	 </div>
   	  </Router>
   );
