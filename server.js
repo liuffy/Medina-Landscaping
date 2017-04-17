@@ -7,6 +7,7 @@ module.exports = {
     const indexPath = path.join(__dirname, 'index.html')
     const publicPath = express.static(path.join(__dirname, 'public'))
     app.use("/images", express.static(__dirname + '/images'));
+    app.use("/favicons", express.static(__dirname + '/favicons'));
     app.use("/app/assets/javascripts", express.static(__dirname + '/app/assets/javascripts'));
     app.use("/app/assets/img", express.static(__dirname + '/app/assets/img'));
     app.use("/css", express.static(__dirname + '/css'));
