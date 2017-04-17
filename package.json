@@ -8,7 +8,6 @@
     "npm": "4.2.0"
   },
   "scripts": {
-   "start": "echo hi",
     "postinstall": "./node_modules/.bin/webpack"
   },
   "keywords": [],
