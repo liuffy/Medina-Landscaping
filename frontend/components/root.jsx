@@ -27,7 +27,7 @@ const Root = () => {
 			  <div>
 					<div className="page">
 						<div className="top-row">
-							<div className="wordmark">
+							<div className="col-md-4 wordmark">
 								<img className="tree-logo"
 										 src='../../app/assets/img/tree.svg' /><NavLink className="animsition-link" to="/">Medina</NavLink>
 							 </div>
