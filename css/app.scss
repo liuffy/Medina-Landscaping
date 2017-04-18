@@ -57,7 +57,7 @@
 		font-size:1.6em;
 		border-radius:2px;
 		padding:0.3em;
-		/*display:flex;*/
+		display:flex;
 		flex-direction:row;
 		cursor: pointer;
 		-webkit-touch-callout: none; /* iOS Safari */
@@ -90,6 +90,10 @@
 		display:flex;
 		flex-direction:row;
 		justify-content: space-between;
+
+		.contact{
+			background: $light-gray;
+		}
 	}
 	
 	.nav-list > a{

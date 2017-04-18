@@ -9,15 +9,17 @@ import Home from './home';
 import Footer from './footer';
 import Portfolio from './portfolio';
 import Contact from './contact';
+import Faqs from './faqs';
 
 
 const NavBar = () => {
 	return(
-			<div className="nav-bar col-md-4 ">
-						<ul className="nav-list">
+			<div className="nav-bar col-md-offset-4 ">
+						<ul className="nav-list offset-">
 							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
-							<NavLink className="animsition-link" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
+							<NavLink className="animsition-link" activeClassName="active" to="/faqs"><li>FAQs</li></NavLink>
+							<NavLink className="animsition-link contact" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 						</ul>
 					</div>)
 }
@@ -27,15 +29,18 @@ const Root = () => {
 			  <div>
 					<div className="page">
 						<div className="top-row">
-							<div className="col-md-4 wordmark">
-								<img className="tree-logo"
-										 src='../../app/assets/img/tree.svg' /><NavLink className="animsition-link" to="/">Medina</NavLink>
-							 </div>
+							<NavLink className="animsition-link" to="/">
+								<div className="wordmark">
+									<img className="tree-logo"
+											 src='../../app/assets/img/tree.svg' />Medina
+								 </div>
+							 </NavLink>
 
 							<NavBar/>
 						</div>
 	    	 <Route exact path="/" component = { Home }/>
 	    	 <Route exact path="/portfolio" component={ Portfolio }/>
+	    	 <Route exact path="/faqs" component={ Faqs }/>
 	    	 <Route exact path="/contact" component={ Contact }/>
 				</div>
 					<Footer/> 
