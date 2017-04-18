@@ -1,12 +1,5 @@
 @import 'variables';
 
-
-$break-large: 1200px;
-$break-medium:920px;
-$break-small: 900px;
-$break-smallest:750px;
-$mobile-screen:480px;
-
 .masonry{
   display: flex;
   flex-direction: row;
@@ -477,7 +470,7 @@ button.mfp-arrow {
     color: #434cff !important;
     background: transparent !important; }
 
-.open-project-lightbox a {
+/*.open-project-lightbox a {
   width:33%;
   display:inline-block;
   margin:0.1em;
@@ -493,7 +486,7 @@ button.mfp-arrow {
     @media (min-width:$break-small) and (max-width:$break-medium)  {
     width: 40%;
   }
-}
+}*/
 .open-project-lightbox a img {
   width:80%;
   /*box-shadow: 0px 8px 46.5px 2.5px rgba(37, 1, 0, 0.4);*/
