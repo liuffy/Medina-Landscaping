@@ -10,12 +10,12 @@ const Footer = () =>{
             <div className="col-md-12">
               <ul className="menu">
                 <li>© Medina Tree Services</li>
-                <li>  Medina Tree Services, Inc.<br/>
-  PO BOX 540663<br/>
-  Waltham, MA 02454</li>
-                <li>(978) 333-9334</li>
+                <li> 246 Calvary St<br/>
+  Waltham, MA 02453</li>
+                <li>(978) 333-9334</li>  
+                <li><a href="https://www.yelp.com/biz/medina-tree-services-waltham" 
+                       target="_blank"><img className="nav-icon" src="./../app/assets/img/yelp.svg"/></a></li>
               </ul>
-              <div className="line"></div>
             </div>
           </div>
         </div>
