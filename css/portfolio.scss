@@ -1,9 +1,15 @@
 @import 'variables';
 
-.image-item{
-  float:left;
-}
 
+
+.masonry{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: stretch;
+  width: 100%;
+  margin: auto;
+}
 
 @media (min-width: 992px) {
   .open-project-lightbox {
@@ -47,28 +53,6 @@
   .open-project-lightbox a img {
     max-width: 100%; }
 
-.project-description {
-  margin-top: 47px; }
-  .project-description h5 {
-    margin-bottom: 19px; }
-  .project-description p {
-    line-height: 20px; }
-  @media (min-width: 768px) and (max-width: 992px) {
-    .project-description {
-      margin-top: 0; }
-      .project-description h5 {
-        margin-bottom: 16px;
-        margin-top: 42px; }
-      .project-description p {
-        line-height: 22px; } }
-  @media (max-width: 767px) {
-    .project-description {
-      margin-top: 0; }
-      .project-description h5 {
-        font-size: 14px;
-        font-size: 1.4rem;
-        margin-top: 17px;
-        margin-bottom: 7px; } }
 
 
 .mfp-close, .mfp-image-holder .mfp-close {
