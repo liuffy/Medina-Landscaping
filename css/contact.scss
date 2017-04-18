@@ -1,27 +1,39 @@
 @import 'variables';
 
+.padded{
+	margin-left:3em;
+	margin-right:3em;
+}
 
-
-	h3{
-		font-size:2em;
-		font-family:'Raleway';
-		font-weight:900;
-		margin-top:2em;
-		margin-bottom:1em;
-	}
+h3{
+	font-size:1.8em;
+	font-family:'Raleway';
+	font-weight:900;
+	margin-top:2em;
+	margin-bottom:1em;
+}
 
 .info-list{
 	font-weight:100;
-	font-size:1.1em;
+	font-size:1.0em;
 	padding-left:0;
+
+	li{
+		padding-top:0.4em;
+	}
 }
 
-
 .logo-pic{
-	width:3.5em;
+	width:2.5em;
+	padding-right:1em;
+}
+
+.logo-pic-mini{
+	width:2.3em;
 	padding-right:1em;
 }
 
 .insurance{
 	font-weight:100;
+	font-size:1.0em;
 }
