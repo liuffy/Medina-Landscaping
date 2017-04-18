@@ -13,7 +13,7 @@ import Contact from './contact';
 
 const NavBar = () => {
 	return(
-			<div className="nav-bar">
+			<div className="nav-bar col-md-4 ">
 						<ul className="nav-list">
 							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>

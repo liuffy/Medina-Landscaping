@@ -1,4 +1,8 @@
 @import 'variables';
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .masonry{
   display: flex;
