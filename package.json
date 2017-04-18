@@ -8,8 +8,8 @@
     "npm": "4.2.0"
   },
   "scripts": {
-  "start": "node app.js",
-  "postinstall": "./node_modules/.bin/webpack"
+    "start": "node app.js",
+    "postinstall": "./node_modules/.bin/webpack"
   },
   "keywords": [],
   "author": "Sophia Liu",

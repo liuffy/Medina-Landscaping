@@ -1,6 +1,11 @@
 @import 'variables';
 
 
+$break-large: 1200px;
+$break-medium:920px;
+$break-small: 900px;
+$break-smallest:750px;
+$mobile-screen:480px;
 
 .masonry{
   display: flex;
@@ -36,8 +41,8 @@
     height: 90px;
     border-radius: 3px;
     position: absolute;
-    top: calc(25%);
-    left: calc(25%); }
+    top: calc(30%);
+    left: calc(30%); }
     .open-project-lightbox a .plus span:first-child {
       margin-top: 24px;
       margin-left: 44px;
@@ -476,6 +481,18 @@ button.mfp-arrow {
   width:33%;
   display:inline-block;
   margin:0.1em;
+
+  @media (max-width:$break-smallest)  {
+    width:100%;
+  }
+
+  @media (min-width:$break-smallest) and (max-width:$break-small)  {
+    width: 45%;
+  }
+
+    @media (min-width:$break-small) and (max-width:$break-medium)  {
+    width: 40%;
+  }
 }
 .open-project-lightbox a img {
   width:80%;
