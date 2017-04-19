@@ -4168,7 +4168,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   font-size:1.6em;
   z-index:2000;
   border-radius:2px;
-  background:#e8e5e5;
+  background:white;
   text-align:right;
   position: relative;
   min-height: 50px;
