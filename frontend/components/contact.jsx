@@ -29,7 +29,7 @@ const Contact = () =>{
 
 		 <div className="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-1 form-wrapper contactform">
               <h4 className="margin-0 text-1-opacity">Need our help? Get in touch!</h4>
-              <form action="https://formspree.io/sophialiu.dev@gmail.com"
+              <form action="https://formspree.io/medinatreeservice@gmail.com"
                   method="POST"
                   id="contact-form">
                 <div className="form-group name">
@@ -54,7 +54,7 @@ const Contact = () =>{
                 <div className="form-group text-area message">
                   <label htmlFor="message">What services do you need?</label>
                   <textarea 
-                  placeholder="Ex: Landscaping, Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services Snow Removal"
+                  placeholder="Ex: Landscaping, Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services, Snow Removal"
                   rows="3" name="Service request" id="message" className="scroll form-control" required></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary submit-btn">Send request</button>
