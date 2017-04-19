@@ -26,7 +26,7 @@ const Contact = () =>{
 		</div>
 
 		 <div className="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-1 form-wrapper contactform">
-              <h4 className="margin-0 text-1-opacity">Need our help? </h4>
+              <h4 className="margin-0 text-1-opacity">Need our help? Get in touch!</h4>
               <form action="#" method="get" id="contact-form">
                 <div className="form-group name">
                   <label htmlFor="input-name">Your name</label>
@@ -49,7 +49,9 @@ const Contact = () =>{
 
                 <div className="form-group text-area message">
                   <label htmlFor="message">Describe the service needed</label>
-                  <textarea rows="3" name="msg" id="message" className="scroll form-control"></textarea>
+                  <textarea 
+                  placeholder="Ex: Landscaping/Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services Snow Removal"
+                  rows="3" name="msg" id="message" className="scroll form-control"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary submit-btn">Request our services</button>
               </form>

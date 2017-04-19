@@ -29,6 +29,7 @@
     });
 
         gridInit();
+        contact();
         masonryInit();
         styleHelper();
         openProject();
@@ -42,6 +43,58 @@
         $('.toggle-icon').on("click", function () {
             $(this).toggleClass('pushed');
             $('.menu-content', '.menu-mobile').toggleClass('pushed');
+        });
+    }
+
+
+    function contact() {
+        addFormAnimation($('input'));
+        addFormAnimation($('textarea'));
+        function addFormAnimation(blurTrigger) {
+            blurTrigger.blur(function () {
+                if ($(this).val() !== '') {
+                    $(this).addClass('filled');
+                }
+                else {
+                    $(this).removeClass('filled');
+                }
+            });
+        }
+        var contactForm = $('#contact-form');
+        contactForm.submit(function () {
+            var $this = $(this);
+            if ($this.hasClass('send')) {
+                return false;
+            }
+
+            $this.addClass('send');
+
+            $.ajax({
+                method: "POST",
+                url: "php/contact.php",
+                data: {
+                    'name': contactForm.find('input[name="name"]').val(),
+                    'email': contactForm.find('input[name="email"]').val(),
+                    'phone': contactForm.find('input[name="phone"]').val(),
+                    'address': contactForm.find('input[name="address"]').val(),
+                    'msg': contactForm.find('textarea[name="msg"]').val()
+                },
+                success: function (data) {
+                    data = JSON.parse(data);
+
+                    $('.contact-help-block').html(data.msg);
+
+                    if (data.status === 'success') {
+                        contactForm.find('input[name="name"]').val('');
+                        contactForm.find('input[name="email"]').val('');
+                        contactForm.find('textarea[name="msg"]').val('');
+                    }
+
+                    $this.removeClass('send');
+                }
+            });
+
+            return false;
         });
     }
 
