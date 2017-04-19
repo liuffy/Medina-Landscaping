@@ -81,7 +81,6 @@
 
 	.nav-bar{
 		text-decoration: none;
-		font-size:1em;
 		font-family: 'Raleway', sans-serif;
 	}
 
@@ -90,9 +89,14 @@
 		flex-direction:row;
 		justify-content: space-between;
 
+		@media all and (max-width: 765px){
+			display:none;
+		}
+
 		.contact{
 			background: $light-gray;
 		}
+
 	}
 	
 	.nav-list > a{
@@ -114,3 +118,58 @@
 		  box-shadow: 0 7px 14px rgba(0,0,0,0.13), 0 5px 5px rgba(0,0,0,0.11);
 		}
 	}
+
+.hamburger-dropdown{ 
+  display:none;
+
+	@media all and (max-width: 765px){
+		display:block;
+		display:flex;
+		flex-direction: column;
+	}
+
+		 > li {
+			top:10px;
+			left:10px;
+			background-image: url("http://res.cloudinary.com/liuffy/image/upload/v1492575304/menu_fbcswl.svg");
+			background-repeat: no-repeat;
+			background-size: 50px 50px;
+			width: 50px;
+			height: 50px;
+			position:relative;
+			cursor: pointer;
+
+			&:hover, &:active{
+	    	ul.dropdown{
+	    		display:block;
+	    	}
+	    };
+		}
+
+		ul.dropdown{
+			display:none;
+			font-size:1.8em;
+	    margin-top:80px;
+	    width:240px;
+	    right:80px; 
+     animation-name: fadeIn;
+		  animation-duration: 1s;
+	    cursor: pointer;
+	    list-style:none;
+
+
+
+	    li{
+	    	/*padding:1em;*/
+	    	padding:0em;
+	    }
+		}
+}
+
+.invisible{
+	display:none;
+}
+
+.visible{
+	display:block;
+}

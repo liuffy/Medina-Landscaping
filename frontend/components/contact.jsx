@@ -2,6 +2,8 @@ import React from 'react';
 import '../../css/app';
 import '../../css/contact';
 
+
+
 const Contact = () =>{
 	return (
 <div className="container">   
@@ -30,30 +32,30 @@ const Contact = () =>{
               <form action="#" method="get" id="contact-form">
                 <div className="form-group name">
                   <label htmlFor="input-name">Your name</label>
-                  <input type="text" name="name" id="input-name" className="form-control"/>
+                  <input type="text" name="name" id="input-name" className="form-control" required/>
                 </div>
                 <div className="form-group email">
                   <label htmlFor="email">Your e-mail</label>
-                  <input type="text" name="email" id="email" className="form-control"/>
+                  <input type="text" name="email" id="email" className="form-control" required/>
                 </div>             
 
                 <div className="form-group phone">
                   <label htmlFor="phone">Your phone number</label>
-                  <input type="text" name="phone" id="phone" className="form-control"/>
+                  <input type="text" name="phone" id="phone" className="form-control" required/>
                 </div>
 
                <div className="form-group address">
                   <label htmlFor="address">Where are you located?</label>
-                  <input type="text" name="address" id="address" className="form-control"/>
+                  <input type="text" name="address" id="address" className="form-control" required/>
                 </div>
 
                 <div className="form-group text-area message">
-                  <label htmlFor="message">Describe the service needed</label>
+                  <label htmlFor="message">Describe the service needed.</label>
                   <textarea 
-                  placeholder="Ex: Landscaping/Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services Snow Removal"
-                  rows="3" name="msg" id="message" className="scroll form-control"></textarea>
+                  placeholder="Ex: Landscaping, Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services Snow Removal"
+                  rows="3" name="msg" id="message" className="scroll form-control" required></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary submit-btn">Request our services</button>
+                <button type="submit" className="btn btn-primary submit-btn">Send request</button>
               </form>
               <div className="contact-help-block"></div>
             </div>

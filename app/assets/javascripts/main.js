@@ -5,6 +5,9 @@
 
     $(document).ready(function () {
 
+
+
+        // Fading effect between transitions
         $(".animsition").animsition( {
             inClass: 'fade-in',
             outClass: 'fade-out',
@@ -24,9 +27,10 @@
             overlayParentElement : 'body',
             transition: function(url){ 
                 window.location.href = url; 
-                location.reload();
+                location.reload(); // otherwise fading effect doesn't work with React
             }
-    });
+        });
+
 
         gridInit();
         contact();
@@ -53,6 +57,7 @@
         function addFormAnimation(blurTrigger) {
             blurTrigger.blur(function () {
                 if ($(this).val() !== '') {
+                    console.log('filled')
                     $(this).addClass('filled');
                 }
                 else {

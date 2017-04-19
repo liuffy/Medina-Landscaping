@@ -1,8 +1,12 @@
 <?php
 
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
+
 $title = 'Message from website';
 $to = 'sophialiu.dev@gmail.com';
-$subject = 'Request for Service from Medina';
+$subject = 'Project request for Medina';
 $headers = 'From: (Supersonic contact form)' . "\r\n" . 'Content-type: text/html; charset=utf-8';
 
 $message = '
@@ -259,7 +263,7 @@ $message = '
 </html>
 ';
 
-if ( ! empty( $_POST['name'] ) && ! empty( $_POST['email'] ) && ! empty( $_POST['msg'] ) ) {
+if ( ! empty( $_POST['name'] ) && ! empty( $_POST['email'] ) && ! empty( $_POST['msg'] ) && ! empty( $_POST['phone'] ) && ! empty( $_POST['address'] ) ) {
 	if ( filter_var( $_POST['email'], FILTER_VALIDATE_EMAIL ) ) {
 	    $mail_result = mail( $to, $subject, $message, $headers );
 
