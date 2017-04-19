@@ -31,7 +31,7 @@
 
 
         gridInit();
-        contact();
+        // contact();
         masonryInit();
         styleHelper();
         openProject();
