@@ -5,22 +5,25 @@ import '../../css/home_page';
 const Home = () =>{
 	return (
 
-		<div className="main-content align-center">   
-		<div className="container-fluid">
 
-			<div className="col-md-12 col-xs-12">
+<div className="main-content align-center">   
+
+  <div className="container-fluid">
+    <div className="row-fluid">
+
+			<div className="col-md-12 col-sm-12">
 				<img className="center-img  center-block" src="../../app/assets/img/center.png"/>
 			</div>
 
 
-					<div className="col-md-6 col-xs-12 center-block text-center about">
+					<div className="col-md-6 col-sm-12 center-block text-center about">
 					<h3 className="column-title">About Us</h3>
 					<p className="column-text text-justify">
 						Medina Tree Service, Inc. is a family owned and operated full service tree care corporation serving Eastern Massachusetts. We have <b> over 15 years of experience </b> and are fully licensed. If you are searching for a tree service company that is affordable and professional, please give us a call. 
 					</p>
 					</div>
 
-					<div className="col-md-6 col-xs-12 center-block text-center about">
+					<div className="col-md-6 col-sm-12 center-block text-center about">
 					<h3 className="column-title center-block">Our Services</h3>
 
 					<div className="column-text">
@@ -35,7 +38,9 @@ const Home = () =>{
 					</div>
 				</div>
 				</div>
-				</div>
+
+		</div>
+	</div>
 		)
 }
 

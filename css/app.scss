@@ -38,8 +38,7 @@
 }
 
 	.page{
-		width:100vw;
-		padding: 1em 2em;
+		padding: 3em 3em;
 	}
 
 	.top-row{
@@ -64,7 +63,7 @@
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
+        -ms-user-select: none; 
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 		align-items:center;

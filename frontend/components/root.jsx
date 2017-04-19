@@ -14,7 +14,7 @@ import Faqs from './faqs';
 
 const NavBar = () => {
 	return(
-			<div className="nav-bar col-md-offset-4 ">
+			<div className="nav-bar col-md-offset-3 ">
 						<ul className="nav-list offset-">
 							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
@@ -27,7 +27,7 @@ const Root = () => {
   return(
 		  <Router >
 			  <div>
-					<div className="page">
+					<div className="page container-fluid">
 						<div className="top-row">
 							<NavLink className="animsition-link" to="/">
 								<div className="wordmark">

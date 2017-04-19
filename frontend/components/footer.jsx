@@ -5,7 +5,7 @@ import '../../css/footer';
 const Footer = () =>{
 	return(
 <div className="menu-content footer">
-        <div className="container main-content align-center">
+        <div className="container main-content">
           <div className="row">
             <div className="col-md-12">
               <ul className="menu">
