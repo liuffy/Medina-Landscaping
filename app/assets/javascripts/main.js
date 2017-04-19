@@ -80,6 +80,7 @@
                     'msg': contactForm.find('textarea[name="msg"]').val()
                 },
                 success: function (data) {
+                    console.log('cool')
                     data = JSON.parse(data);
 
                     $('.contact-help-block').html(data.msg);
@@ -87,6 +88,8 @@
                     if (data.status === 'success') {
                         contactForm.find('input[name="name"]').val('');
                         contactForm.find('input[name="email"]').val('');
+                        contactForm.find('input[name="phone"]').val('');
+                        contactForm.find('input[name="address"]').val('');
                         contactForm.find('textarea[name="msg"]').val('');
                     }
 
