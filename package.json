@@ -11,6 +11,10 @@
     "start": "node app.js",
     "postinstall": "./node_modules/.bin/webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuffy/Medina-Landscaping"
+  },
   "keywords": [],
   "author": "Sophia Liu",
   "license": "ISC",
@@ -30,6 +34,7 @@
     "express": "^4.15.2",
     "jquery": "^3.2.1",
     "lightbox2": "^2.9.0",
+    "nodemailer": "^4.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router": "^3.0.0",

@@ -5,8 +5,6 @@
 
     $(document).ready(function () {
 
-
-
         // Fading effect between transitions
         $(".animsition").animsition( {
             inClass: 'fade-in',
@@ -27,7 +25,7 @@
             overlayParentElement : 'body',
             transition: function(url){ 
                 window.location.href = url; 
-                location.reload(); // otherwise fading effect doesn't work with React
+                location.reload(); // otherwise anismation fading effect doesn't work with React
             }
         });
 
@@ -52,12 +50,12 @@
 
 
     function contact() {
+        console.log("at least we have this")
         addFormAnimation($('input'));
         addFormAnimation($('textarea'));
         function addFormAnimation(blurTrigger) {
             blurTrigger.blur(function () {
                 if ($(this).val() !== '') {
-                    console.log('filled')
                     $(this).addClass('filled');
                 }
                 else {
@@ -67,6 +65,7 @@
         }
         var contactForm = $('#contact-form');
         contactForm.submit(function () {
+            console.log('submitted')
             var $this = $(this);
             if ($this.hasClass('send')) {
                 return false;
