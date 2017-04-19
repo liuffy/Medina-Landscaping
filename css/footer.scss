@@ -3,11 +3,11 @@
 .footer{
 	background:$cloud-gray;
 	height:150px;
-		display:flex;
+	display:flex;
 	font-weight:400;
 	flex-direction:row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .nav-icon{
@@ -26,11 +26,10 @@
 	align-items: center;
 	justify-content: space-around;
 
-
 	li {
 		color:white;
-	a{
-		color:white;
-	}
+		a{
+			color:white;
+		}
 	}
 }
