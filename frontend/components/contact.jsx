@@ -52,10 +52,10 @@ const Contact = () =>{
                 </div>
 
                 <div className="form-group text-area message">
-                  <label htmlFor="message">Describe the service needed.</label>
+                  <label htmlFor="message">What services do you need?</label>
                   <textarea 
                   placeholder="Ex: Landscaping, Planting,  Tree Removal & Pruning, Emergency Tree Removal, Stump Grinding, Crane Services Snow Removal"
-                  rows="3" name="Message" id="message" className="scroll form-control" required></textarea>
+                  rows="3" name="Service request" id="message" className="scroll form-control" required></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary submit-btn">Send request</button>
               </form>
