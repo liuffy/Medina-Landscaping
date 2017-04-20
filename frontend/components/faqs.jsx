@@ -13,7 +13,7 @@ const Faqs = () =>{
 			<li><b>How much does it cost for an estimate?</b><br/>
 	Estimates are free.</li>
 
-<li><b>How long does it take to receive estimate?</b><br/>
+<li><b>How long does it take to receive the estimate?</b><br/>
 	Written estimates take 1-2 business days.</li>
 
 <li><b>What areas do you service?</b><br/>
