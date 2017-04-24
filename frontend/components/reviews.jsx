@@ -7,7 +7,7 @@ const Reviews = () =>{
 <div className="container">   
  	<div className="row">
       <div className="col-md-12">
-        <h3 className="text-center reviews-header">Reviews from our Customers</h3>
+        <h3 className="text-center reviews-header">Reviews</h3>
       </div>
           
         <div className="row">
