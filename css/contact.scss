@@ -14,6 +14,16 @@ h3{
 	};
 }
 
+.doc-link{
+	color: $hunter-green;
+	font-weight:bold;
+	padding:0.3em 0em;
+	&:hover{
+		border-bottom:2px solid $hunter-green;
+		color: $hunter-green;
+	};
+}
+
 .info-list{
 	font-weight:100;
 	font-size:1em;
@@ -84,6 +94,7 @@ label{
 
   &:hover{
 		transform:translateY(-2px);
+		filter:brightness(110%);
 	  box-shadow: 0 7px 7px rgba(0,0,0,0.13), 0 5px 5px rgba(0,0,0,0.11);
   };
 }

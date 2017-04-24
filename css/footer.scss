@@ -1,8 +1,10 @@
 @import 'variables';
 
 .footer{
+		font-family:'Raleway';
+		/* IE10+ */ 
 	background:$cloud-gray;
-	height:150px;
+	height:200px;
 	display:flex;
 	font-weight:400;
 	flex-direction:row;
@@ -11,12 +13,14 @@
 }
 
 .nav-icon{
-	width:2em;
+	width:3em;
+	padding:0.3em;
 	margin-left:10px;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
 
 	&:hover{
 		filter:brightness(110%);
-		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+		transform:translateY(-2px);
 	};
 }
 

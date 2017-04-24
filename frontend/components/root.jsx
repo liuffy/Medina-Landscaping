@@ -33,7 +33,7 @@ const NavBar = () => {
 				<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul className="nav navbar-nav">
 			        <NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
-				      <NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
+				      <NavLink className="animsition-link" activeClassName="active" to="/gallery"><li>Gallery</li></NavLink>
 				      <NavLink className="animsition-link" activeClassName="active" to="/faqs"><li>FAQs</li></NavLink>
 				      <NavLink className="animsition-link contact" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 				</ul>
@@ -57,7 +57,7 @@ const Root = () => {
 		<div className="nav-bar col-md-offset-4">
 						<ul className="nav-list offset-">
 							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
-							<NavLink className="animsition-link" activeClassName="active" to="/portfolio"><li>Portfolio</li></NavLink>
+							<NavLink className="animsition-link" activeClassName="active" to="/gallery"><li>Gallery</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/faqs"><li>FAQs</li></NavLink>
 							<NavLink className="animsition-link contact" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 						</ul>
@@ -65,7 +65,7 @@ const Root = () => {
 							<NavBar/>
 						</div>
 	    	 <Route exact path="/" component = { Home }/>
-	    	 <Route exact path="/portfolio" component={ Portfolio }/>
+	    	 <Route exact path="/gallery" component={ Portfolio }/>
 	    	 <Route exact path="/faqs" component={ Faqs }/>
 	    	 <Route exact path="/contact" component={ Contact }/>
 				</div>

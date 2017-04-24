@@ -13,9 +13,9 @@ const Contact = () =>{
 			<ul className="info-list">
 				<li><img className="logo-pic-mini"
 									src="./../app/assets/img/calendar.svg"/>
-<b>Invoice/Scheduling:</b> (508) 879-0900<br/>
+<b>Office:</b> (508) 879-0900 <br/>(Best for for scheduling estimates or invoice questions)<br/>
 <img className="logo-pic-mini"
-									src="./../app/assets/img/phone-call.svg"/><b>General: </b> (978) 333-9334
+									src="./../app/assets/img/phone-call.svg"/><b>Cell: </b> (978) 333-9334
 </li> 
 				<li><img className="logo-pic-mini"
 									src="./../app/assets/img/mail.svg"/><b>E-mail:</b> medinatreeservice@gmail.com</li>
@@ -47,7 +47,7 @@ const Contact = () =>{
                 </div>
 
                <div className="form-group address">
-                  <label htmlFor="address">Where are you located?</label>
+                  <label htmlFor="address">Your address</label>
                   <input type="text" name="Address" id="address" className="form-control" required/>
                 </div>
 

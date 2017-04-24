@@ -26,7 +26,7 @@ const Portfolio = () =>{
       <div className="col-md-6 grid-object"><a href="app/assets/img/Tree6.jpg" data-lightbox="example-1" ><span className="plus"><span></span><span></span></span><img className="center-block" alt="" src="app/assets/img/Tree6.jpg"/></a></div>
 
    
-</div>
+  </div>
       </div>
       </div>
     </div>

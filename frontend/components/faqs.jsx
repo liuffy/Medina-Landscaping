@@ -34,8 +34,10 @@ const Faqs = () =>{
 
 		<div className="col-md-6 insurance  text-justify">
 			<h3><img className="logo-pic" src="./../app/assets/img/insurance.svg" />Insurance</h3>
-			<p>Standard homeowners policies generally help protect trees, shrubs and plants against specific perils such as fire, lightning, explosion, vandalism, riot, theft, and damage caused by someone else's vehicle.
-				We are fully insured to perform work in Massachusetts and can provide certificates of insurance upon request.</p>
+			<p>
+				<a className="doc-link" href="http://res.cloudinary.com/liuffy/image/upload/v1493001253/Medina_Tree_Services_Inc_GL_COI_Medina_zjtber.pdf" target="_blank">View Liability Insurance certificate</a>	<br/>
+
+				<br/>Please let us know if you would like to receive liability or workers’ compensation certificates from our insurance agency. These usually take 1-2 business days to process. </p>
 		</div>
 		</div>
 
