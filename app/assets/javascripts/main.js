@@ -9,7 +9,7 @@
         $(".animsition").animsition( {
             inClass: 'fade-in',
             outClass: 'fade-out',
-            inDuration: 300,
+            inDuration: 600,
             outDuration: 200,
             linkElement: '.animsition-link',
             loading: true,
@@ -31,7 +31,7 @@
 
 
         gridInit();
-        // contact();
+        reviews_carousel();
         masonryInit();
         styleHelper();
         openProject();
@@ -45,6 +45,14 @@
         $('.toggle-icon').on("click", function () {
             $(this).toggleClass('pushed');
             $('.menu-content', '.menu-mobile').toggleClass('pushed');
+        });
+    }
+
+        function reviews_carousel () {
+        $('.carousel').owlCarousel({
+            items: 1,
+            dots: true,
+            animateOut: 'fadeOut'
         });
     }
 

@@ -10,6 +10,7 @@ import Footer from './footer';
 import Portfolio from './portfolio';
 import Contact from './contact';
 import Faqs from './faqs';
+import Reviews from './reviews';
 
 
 const NavBar = () => {
@@ -35,6 +36,7 @@ const NavBar = () => {
 			        <NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
 				      <NavLink className="animsition-link" activeClassName="active" to="/gallery"><li>Gallery</li></NavLink>
 				      <NavLink className="animsition-link" activeClassName="active" to="/faqs"><li>FAQs</li></NavLink>
+				      <NavLink className="animsition-link" activeClassName="active" to="/reviews"><li>Reviews</li></NavLink>
 				      <NavLink className="animsition-link contact" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 				</ul>
 
@@ -59,6 +61,7 @@ const Root = () => {
 							<NavLink className="animsition-link" activeClassName="active" to="/"><li>Home</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/gallery"><li>Gallery</li></NavLink>
 							<NavLink className="animsition-link" activeClassName="active" to="/faqs"><li>FAQs</li></NavLink>
+				      <NavLink className="animsition-link" activeClassName="active" to="/reviews"><li>Reviews</li></NavLink>
 							<NavLink className="animsition-link contact" activeClassName="active" to="/contact"><li>Contact</li></NavLink>
 						</ul>
 					</div>
@@ -67,6 +70,7 @@ const Root = () => {
 	    	 <Route exact path="/" component = { Home }/>
 	    	 <Route exact path="/gallery" component={ Portfolio }/>
 	    	 <Route exact path="/faqs" component={ Faqs }/>
+	    	 <Route exact path="/reviews" component={ Reviews }/>
 	    	 <Route exact path="/contact" component={ Contact }/>
 				</div>
 					<Footer/> 
