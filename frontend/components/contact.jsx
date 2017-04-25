@@ -28,7 +28,7 @@ const Contact = () =>{
 		</div>
 
 		 <div className="col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-1 form-wrapper contactform">
-              <h4 className="margin-0 text-1-opacity">Need our help? Get in touch!</h4>
+              <h4 className="margin-0 text-1-opacity">Need Estimate? Get in Touch Below!</h4>
               <form action="https://formspree.io/medinatreeservice@gmail.com"
                   method="POST"
                   id="contact-form">
