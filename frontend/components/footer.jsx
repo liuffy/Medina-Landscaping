@@ -9,13 +9,12 @@ const Footer = () =>{
           <div className="row">
             <div className="col-md-12">
               <ul className="menu">
-                <li className="col-md-3 col-sm-6">© Medina Tree Services</li>
-                <li className="col-md-3 col-sm-6"> Medina Tree Services, Inc.<br/>
+                <li className="col-md-4 col-sm-6"> Medina Tree Services, Inc.<br/>
                   PO BOX 540663 <br/>
                   Waltham, MA 02454</li>
-                <li className="col-md-3 col-sm-6">(978) 333-9334</li> 
+                <li className="col-md-4 col-sm-6">(978) 333-9334</li> 
 
-                <li className="col-md-3 col-sm-6">
+                <li className="col-md-4 col-sm-6">
                 <a href="https://www.yelp.com/biz/medina-tree-services-waltham" 
                        target="_blank"><img className="nav-icon" src="./../app/assets/img/yelp.svg"/></a>
                 <a href="https://www.facebook.com/medinatreeservice/" 

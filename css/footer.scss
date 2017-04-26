@@ -1,13 +1,13 @@
 @import 'variables';
 
 .footer{
-	  box-shadow: 5px 5px 8px 8px rgba(0,0,0,0.2);
-		font-family:'Raleway';
+  box-shadow: 5px 5px 8px 8px rgba(0,0,0,0.2);
+	font-family: 'Futura';
 		/* IE10+ */ 
 	background:$cloud-gray;
 	height:200px;
 	display:flex;
-	font-weight:400;
+	font-weight:100;
 	flex-direction:row;
 	align-items: center;
 	justify-content: space-between;
@@ -21,7 +21,8 @@
 
 	&:hover{
 		filter:brightness(110%);
-		transform:translateY(-2px);
+		transform:scale(1.2);
+		opacity:1.0;
 	};
 }
 
@@ -29,10 +30,12 @@
 	display:flex;
 	font-weight:100;
 	flex-direction:row;
+	text-transform:uppercase;
 	align-items: center;
 	justify-content: space-around;
 
 	li {
+		opacity:0.8;
 		color:white;
 		a{
 			color:white;
