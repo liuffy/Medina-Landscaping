@@ -3,6 +3,10 @@ import '../../css/app';
 import '../../css/home_page';
 
 const Home = () =>{
+  $(window).scroll(function(){
+         $(".center-img").css("opacity", 1 - $(window).scrollTop() / 1850);
+	   });
+
 	return (
 
 
@@ -12,7 +16,7 @@ const Home = () =>{
     <div className="row-fluid">
 
 			<div className="col-md-12 col-sm-12">
-				<img className="center-img  center-block" src="../../app/assets/img/center.png"/>
+				<img className="center-img  center-block" src="../../app/assets/img/center.jpg"/>
 			</div>
 
 

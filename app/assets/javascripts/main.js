@@ -5,6 +5,8 @@
 
     $(document).ready(function () {
 
+         $(".center-img").css("opacity", 1 - $(window).scrollTop() / 250);
+
         // Fading effect between transitions
         $(".animsition").animsition( {
             inClass: 'fade-in',

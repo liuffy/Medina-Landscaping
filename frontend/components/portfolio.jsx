@@ -10,11 +10,6 @@ const Portfolio = () =>{
   <div className="container-fluid">
 
     <div className="open-project-lightbox">
-    <div className="row-fluid">
-      <div className="col-md-6 grid-object"><a href="app/assets/img/Tree1.jpg" data-lightbox="example-1"><span className="plus"><span></span><span></span></span><img className="center-block" alt="" src="app/assets/img/Tree1.jpg" /></a></div>
-
-      <div className="col-md-6 grid-object"><a href="app/assets/img/Tree2.jpg" data-lightbox="example-1"><span className="plus"><span></span><span></span></span><img className="center-block" alt="" src="app/assets/img/Tree2.jpg"/></a></div>       
-    </div>
 
 
     <div className="row-fluid">
@@ -24,6 +19,10 @@ const Portfolio = () =>{
     </div>
 
       <div className="col-md-6 grid-object"><a href="app/assets/img/Tree6.jpg" data-lightbox="example-1" ><span className="plus"><span></span><span></span></span><img className="center-block" alt="" src="app/assets/img/Tree6.jpg"/></a></div>
+
+    <div className="row-fluid">
+      <div className="col-md-6 grid-object"><a href="app/assets/img/Tree2.jpg" data-lightbox="example-1"><span className="plus"><span></span><span></span></span><img className="center-block" alt="" src="app/assets/img/Tree2.jpg"/></a></div>       
+    </div>
 
    
   </div>

@@ -30,7 +30,8 @@
 }
 	.center-img{
 		transition: all 0.5s cubic-bezier(.25,.8,.25,1);
-		max-width:55%;
+		max-width:100%;
+		background-attachment: fixed;
 		display:block;
 	}
 

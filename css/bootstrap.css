@@ -4173,8 +4173,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-align:right;
   position: relative;
   min-height: 50px;
-  margin-right: -10px;
-  margin-top:-0.1em;
+  margin-top:-0.2em;
   border: 1px solid transparent;
 }
 
