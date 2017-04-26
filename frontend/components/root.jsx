@@ -53,7 +53,7 @@ const Root = () => {
 							<NavLink className="animsition-link" to="/">
 								<div className="wordmark">
 									<img className="tree-logo"
-											 src='../../app/assets/img/tree.svg' />Medina
+											 src='../../app/assets/img/logo.png' />
 								 </div>
 							 </NavLink>
 		<div className="nav-bar col-md-offset-4">
