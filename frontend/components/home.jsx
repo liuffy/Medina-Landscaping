@@ -18,6 +18,10 @@ const Home = () =>{
 
 					<div className="col-md-6 col-sm-12 center-block text-center about">
 					<h3 className="column-title">About Us</h3>
+					<div className="row">
+						<img className="about-icon" src="../../app/assets/img/smile1.svg"/>
+						<img className="about-icon" src="../../app/assets/img/smile2.svg"/>
+					</div>
 					<p className="text-justify about-text">
 						Medina Tree Service, Inc. is a family owned and operated full service tree care corporation serving Eastern Massachusetts. We have <b> over 15 years of experience </b> and are fully licensed. If you are searching for a tree service company that is affordable and professional, please give us a call. 
 					</p>
@@ -25,6 +29,9 @@ const Home = () =>{
 
 					<div className="col-md-6 col-sm-12 center-block text-center about">
 					<h3 className="column-title center-block">Our Services</h3>
+					<div className="row">
+						<img className="about-icon" src="../../app/assets/img/helmet.svg"/>
+					</div>
 
 					<div className="column-text">
 						<ul className="service-list">
